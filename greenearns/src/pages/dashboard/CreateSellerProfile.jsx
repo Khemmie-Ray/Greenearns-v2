@@ -35,7 +35,7 @@ const CreateSellerProfile = () => {
             <img src={profileBg} alt="dashboard"  className='w-[100%] lg:w-[60%] md:w-[60%]'/>
         </div>
     </div>
-    <h2 className='lg:text-[24px] md:text-[24px] text-[18px] font-bold mb-4'>All Seller's Profile</h2>
+    <h2 className='lg:text-[24px] md:text-[24px] text-[18px] font-bold my-6'>All Seller's Profile</h2>
 
     <div className='flex lg:flex-row md:flex-row flex-col justify-between items-center my-10 text-[#0F160F] flex-wrap'>
       {allSeller?.map((info) => (
