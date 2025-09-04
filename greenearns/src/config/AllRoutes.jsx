@@ -48,7 +48,7 @@ const AllRoutes = () => {
  
 
   return (
-    <div className="w-full mx-auto bg-white  min-h-[100vh] font-opensans max-w-[1440px] text-[#0F160F]">
+    <div className="w-full mx-auto bg-white  min-h-[100vh] font-opensans max-w-[1600px] text-[#0F160F]">
       <Toaster />
       <Suspense fallback={<PageLoader />}>
 
